@@ -92,6 +92,7 @@ module.exports = generators.Base.extend({
         this.npmInstall(
           [
             'babel-eslint',
+            'babel-preset-es2015',
             'del',
             'gulp',
             'gulp-babel',

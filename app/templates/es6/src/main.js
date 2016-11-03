@@ -16,7 +16,10 @@
 //
 // Author:
 //   <github username of the original script author>
-export default function (robot) {
+
+'use strict';
+
+module.exports = (robot) => {
   ////
   // EXAMPLES
   // Below are some example Hubot interactions. You will want to delete these
